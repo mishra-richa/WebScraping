@@ -1,4 +1,4 @@
-# Web Scraping
+# Web Scraping Basics using Beautiful Soup Library
 
 from bs4 import BeautifulSoup
 
