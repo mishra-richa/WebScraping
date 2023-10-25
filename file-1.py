@@ -1,3 +1,5 @@
+# Finding Machine Learning Internships on Internshala:
+
 from bs4 import BeautifulSoup
 
 import requests
@@ -7,8 +9,6 @@ html_text = requests.get('https://internshala.com/internships/machine-learning-i
 
 soup = BeautifulSoup(html_text,'lxml')
 # print(soup.prettify())
-
-# Finding Machine Learning Internships on Internshala:
 
 role =soup.find('a', class_ = 'view_detail_button').text.replace(' ','')
 # print(role)
