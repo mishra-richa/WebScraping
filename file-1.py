@@ -10,10 +10,15 @@ html_text = requests.get('https://internshala.com/internships/machine-learning-i
 soup = BeautifulSoup(html_text,'lxml')
 # print(soup.prettify())
 
-role =soup.find('a', class_ = 'view_detail_button').text.replace(' ','')
-# print(role)
+role = soup.find('h3', class_ = 'heading_4_5 profile').text.strip()
 
-company = soup.find('a','link_display_like_text view_detail_button').text.replace(' ','')
-# print(company)
+company = soup.find('div','company_and_premium').text.strip()
 
-print(f"The following internship postings are listed for Machine Learning at Internshala: {role} at {company}")
+
+for count, postings in enumerate(role, start=1):
+    print(f'''The following openings are available on Internshala: 
+    {count}. Role: {role} 
+    Company: {company}''')
+    break
+
+
