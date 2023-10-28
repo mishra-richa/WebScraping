@@ -4,27 +4,30 @@
 <p>
 I am facing a problem in obtaining the data for the duration of Internship from the below mentioned tag:
 
-&ltdiv class="item_body"&gt 3 Months  &lt/div&gt tag
+&lt;div class="item_body"&gt; 3 Months  &lt;/div&gt; tag
 
 because of a tag containing similar class:
 
-&ltdiv class="item_body" id="start-date-first"&gt
-     &ltspan class="start_immediately_mobile"&gtStarts&nbsp;immediately&lt/span&gt
+&lt;div class="item_body" id="start-date-first"&gt;
+     &lt;span class="start_immediately_mobile"&gt;Starts&nbsp;immediately&lt/span&gt
 
 <b> Output:</b>
-
+<br>
+<textarea>
 0.
 Company_Name -> AgentInsights
 Job_Role -> Computer Vision
 Duration ->
 Starts immediatelyImmediately
-
+</textarea>
+<br>
 <b> Desired Output:</b>
-
+<textarea>
 0.
 Company_Name -> AgentInsights
 Job_Role -> Computer Vision
 Duration -> 3 Months
+</textarea>
 </p>
 <br>
 Author- Richa Mishra
