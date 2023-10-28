@@ -13,9 +13,11 @@ jobs = soup.find_all('div', class_ = 'internship_meta')
 for count,job in enumerate(jobs):
     company = job.find('h4',class_ = 'heading_6 company_name').text
     role = job.find('h3', class_ = 'heading_4_5 profile').text
+    duration = job.find_all(class_ ='item_body')[1].text
 
     print(f'{count}.')
     print(f"Company_Name -> {company.strip()}")
     print(f"Job_Role -> {role.strip()}")
+    print(f"Duration -> {duration.strip()}")
 
     print('')
