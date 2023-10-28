@@ -2,7 +2,7 @@
 
 <p> I am facing a problem in obtaining the data for the duration of Internship:
 
-<!--<div class="item_body"> 3 Months  </div> tag
+<div class="item_body"> 3 Months  </div> tag
 containing information about the 'duration' of the Internship
 <br>
 because of a similar tag 
@@ -24,7 +24,6 @@ Instead of:
 Company_Name -> AgentInsights
 Job_Role -> Computer Vision
 Duration -> 3 Months
--->
 </p>
 <br>
 Author- Richa Mishra
