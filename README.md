@@ -12,16 +12,12 @@
   </ul>
 </p>
 
-<title> Extracting data from tags containing similar class type </title>
+<h3> Extracting data from tags containing similar class type </h3>
 
 
-<p>
-I am facing a problem in obtaining the data for the duration of Internship from the below mentioned tag:
-
+<p> I am facing a problem in obtaining the data for the duration of Internship from the below mentioned tag:
 &lt;div class="item_body"&gt; 3 Months  &lt;/div&gt; tag
-
 because of a tag containing similar class:
-
 &lt;div class="item_body" id="start-date-first"&gt;
      &lt;span class="start_immediately_mobile"&gt;Starts&nbsp;immediately&lt/span&gt
 
