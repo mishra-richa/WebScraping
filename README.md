@@ -28,7 +28,7 @@ because of a tag containing similar class:
 Company_Name -> AgentInsights <br />
 Job_Role -> Computer Vision <br />
 Duration ->
-Starts immediatelyImmediately
+Starts immediatelyImmediately <br />
 
 > Desired Output:
 <br>
