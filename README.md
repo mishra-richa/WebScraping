@@ -21,7 +21,7 @@ I am facing a problem in obtaining the data for the duration of Internship from 
 because of a tag containing similar class:
 `<div class="item_body" id="start-date-first">`
      `<span class="start_immediately_mobile">Starts&nbsp;<immediately</span>`
-
+<br>
 > Output:
 <br>
 0.
@@ -29,7 +29,7 @@ Company_Name -> AgentInsights <br />
 Job_Role -> Computer Vision <br />
 Duration ->
 Starts immediatelyImmediately <br />
-
+<br>
 > Desired Output:
 <br>
 0.
