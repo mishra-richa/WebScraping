@@ -29,9 +29,7 @@ Company_Name -> AgentInsights <br />
 Job_Role -> Computer Vision <br />
 Duration ->
 Starts immediatelyImmediately
-
 <br>
-
 > Desired Output:
 <br>
 0.
